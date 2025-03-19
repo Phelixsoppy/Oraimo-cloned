@@ -1,0 +1,6 @@
+@media screen and(max-width:1266px) and(min-width:785) {
+    #row3{
+        flex-wrap: nowrap !important;
+        gap: 15px;
+    }
+}
