@@ -9,9 +9,6 @@ body #nav{
 #nav #navbarSupportedContent li a img{
     height: 20px;
 }
-#nav .icon{
-    
-}
 #nav .icon a img{
     width: 20px;
     margin-left: 25px;
@@ -75,7 +72,7 @@ body #nav{
 }
 .card-body ul li span{
     margin-left: 10px;
-    font-size: ;
+    /* font-size: ; */
 }
 .img1 img{
     width: 100%;
@@ -101,6 +98,7 @@ body #nav{
 .flex-item1 .subflex2{
     background-color: #f8f8f8;
     margin-bottom: -10px;
+    
 }
 
 .flex-item1 .subflex1 #button1{
@@ -203,15 +201,179 @@ body #nav{
     margin-bottom: 10px;
 }
 .container2 input{
-    width: 650px;
+    width: 50%;
     border-radius: 15px 0px 0px 15px;
     border: solid 1px;
     padding: 10px 15px;
     font-size: 14px;
     margin-top: -10px;
+    flex-wrap: wrap;
 
 }
+.container4{
+    background: rgb(67, 66, 66); 
+}
+.flex-container5{
+    margin: 0px 40px;
+    /* line-height: 40px; */
+    display: flex;
+    padding: 10px 0px;
+    
+    
+}
+.flex-container5 .flex-item1 .subflex1 {
+   color: white;
+   font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 15px ;
+    
+}
+.flex-container5 .flex-item1 .subflex2 {
+    gap: 20px;
+    display: flex;
+}
+.flex-container5 .flex-item1 .subflex2 li img{
+    width: 70%;
+    
+    /* border: solid white; */
+    
+}
+.flex-container5 .flex-item2{
+    /* margin: 15px 0px ; */
 
+}
+.flex-container5 .flex-item2 ul{
+    display: flex;
+    gap: 10px;
+    list-style: none;
+    padding-left: 80px;
+}
+.flex-container5 .flex-item2 ul .subflex1{
+    color: white;
+    display: flex;
+    height: 50px;
+    width: 250px;
+    /* border: solid red; */
+    padding: 0;
+    gap: 10px;
+    padding-top: 5px;
+}
+.flex-container5 .flex-item2 ul .subflex1 img{
+    
+}
+.flex-container5 .flex-item2 ul .subflex1 .text{
+    line-height: 10px;
+    padding:5px 0px;
+
+}
+.flex-container5 .flex-item2 ul .subflex1 .text #p1{
+    font-size: 13px;
+    font-weight: 600;
+}
+.flex-container5 .flex-item2 ul{
+    padding: 5px 0px;
+}
+
+.flex-container5 .flex-item2 ul .subflex1 .text #p2{
+    font-size: 12px;
+}
+.flex-container5 .flex-item2 ul .subflex2 img{
+    width: 100%;
+    /* border: solid blue; */
+}
+.flex-container5 .flex-item2 ul .subflex3 img{
+    width: 100%;
+    /* border: solid greenyellow; */
+}
+.container6{
+    background-color: black;
+    
+}
+ .container6 .flex-container{
+    margin: 0px 40px;
+    display: flex;
+    gap: 80px;
+    padding: 20px 0px;
+}
+.container6 .flex-container ul a{
+    text-decoration: none;
+}
+.container6 .flex-container ul li{
+    color: white;
+    line-height: 30px;
+    list-style: none;
+}
+.container7{
+    text-align: center;
+    padding: 10px 0px;
+}
+.container7 img {
+    width: 10%;
+}
+@media screen and (max-width:1079px) and (min-width:789px) {
+        
+    .flex-container5 .flex-item1 .subflex1 {
+        color: white;
+        font-size: 13px;
+        font-weight: 400;
+        
+    }
+    
+    .flex-container5 .flex-item1 .subflex2 {
+        gap: 15pxpx;
+        
+    }
+    .flex-container5{
+        margin: 0px 35px;
+        line-height: 30px;
+    }
+    .flex-container5 .flex-item2 ul{
+        display: flex;
+        gap: 10px;
+        list-style: none;
+        padding-left: 60px;
+    }
+    .flex-container5 .flex-item2 ul .subflex1{
+        height: 45px;
+        /* border: solid red; */
+        padding: 0;
+        gap: 9px;
+    }
+    .flex-container5 .flex-item2 ul .subflex1 .text{
+        line-height: 18px;
+        padding: 0;
+    }
+    .flex-container5 .flex-item2 ul .subflex1 .text #p1{
+        font-size: 10px;
+        font-weight: 500;
+    }
+
+    .flex-container5 .flex-item2 ul .subflex1 .text #p2{
+        font-size: 8px;
+    }
+}
+@media screen and (max-width: 788px) {
+        
+    .flex-container5{
+        line-height: 30px;
+        flex-wrap: wrap;
+    }
+        
+    .flex-container5{
+        margin: 0px 20px;
+        line-height: 40px;
+        display: flex;
+    
+    }
+    .flex-container5 .flex-item2{
+        margin: 15px 30px ;
+        
+    
+    }
+    .flex-container5 .flex-item2 ul{
+        padding-left: 0px;
+    }
+}
 
 @media screen and (max-width:1070px) and (min-width:787px) {
     .flex-container{
@@ -231,6 +393,5 @@ body #nav{
     }
     .flex-item1{
         width: 100%;
-        pa
     }
 }

@@ -3,4 +3,12 @@
         flex-wrap: nowrap !important;
         gap: 15px;
     }
+    #nav .icon #menu-icon{
+        display: none;
+        border: solid red;
+    }
+}
+#nav .icon #menu-icon{
+    
+    
 }
